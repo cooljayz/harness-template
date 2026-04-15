@@ -1,0 +1,14 @@
+# 에이전트 런타임 아티팩트
+artifacts/*
+!artifacts/.gitkeep
+
+# OS
+.DS_Store
+
+# 언어별 (필요 시 해제)
+# node_modules/
+# dist/
+# __pycache__/
+# .venv/
+# *.pyc
+# target/

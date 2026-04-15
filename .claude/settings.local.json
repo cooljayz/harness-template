@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:openai.com)",
+      "WebSearch",
+      "WebFetch(domain:martinfowler.com)",
+      "Bash(chmod +x scripts/*.sh)",
+      "Bash(mkdir -p artifacts)",
+      "Bash(touch artifacts/.gitkeep)",
+      "Bash(./scripts/bootstrap.sh)",
+      "Bash(gh auth:*)",
+      "Read(//Users/hoonjail/.claude/**)"
+    ]
+  }
+}
